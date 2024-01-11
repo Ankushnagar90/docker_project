@@ -22,7 +22,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: Install Dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r docker_project/requirements.txt
         working-directory: docker_project
       
       - name: Run Tests
