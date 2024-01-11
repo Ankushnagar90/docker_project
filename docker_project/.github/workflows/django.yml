@@ -23,6 +23,8 @@ jobs:
 
       - name: Install Dependencies
         run: pip install -r requirements.txt
+        working-directory: docker_project
       
       - name: Run Tests
         run: python manage.py test
+        working-directory: docker_project
