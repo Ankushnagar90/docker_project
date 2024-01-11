@@ -16,7 +16,7 @@ jobs:
         python-version: [3.8]
     
     services:
-      db:
+      localhost:
         image: postgres:latest
         env:
           POSTGRES_DB: docker_db
