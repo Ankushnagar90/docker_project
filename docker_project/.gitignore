@@ -1,0 +1,12 @@
+#ignore specific files
+__pycache__/
+*.pyc
+
+*/static/
+*/media/
+**/migrations/
+
+
+# Environments
+# */settings/.env
+.env
