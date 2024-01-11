@@ -12,9 +12,9 @@ services:
     env_file:
       - .env
     depends_on: 
-      - localhost
+      - db
 
-  localhost:
+  db:
     image: postgres
     volumes:
       - postgres_data:/var/lib/postgresql/postgres_data
